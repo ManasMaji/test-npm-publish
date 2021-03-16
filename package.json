@@ -9,5 +9,9 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.14.1"
+  },
+  "scripts": {
+    "test": "lerna run test",
+    "lint": "lerna run lint"
   }
 }
