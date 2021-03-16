@@ -1,0 +1,18 @@
+{
+  "name": "@manasmaji/test3",
+  "version": "1.0.0",
+  "description": "test 3 package",
+  "repository": "https://github.com/ManasMaji/test-npm-publish/tree/master/packages/test3",
+  "author": "manasmaji",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "dependencies": {
+    "@manasmaji/test1": "^1.0.0"
+  },
+  "engines": {
+	"node": ">=10.0.0"
+  }
+}
