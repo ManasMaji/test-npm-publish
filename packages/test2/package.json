@@ -1,6 +1,6 @@
 {
   "name": "@manasmaji/test2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test 2 package",
   "repository": "https://github.com/ManasMaji/test-npm-publish/tree/master/packages/test2",
   "author": "manasmaji",
@@ -11,7 +11,7 @@
     "@manasmaji/test1": "^1.0.0"
   },
   "engines": {
-	"node": ">=10.0.0"
+    "node": ">=10.0.0"
   },
   "main": "index.js",
   "license": "MIT"
