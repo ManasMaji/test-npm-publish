@@ -5,9 +5,8 @@ on:
     branches:
       - main
 
-jobs:
-
   publish-npm:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -16,7 +15,7 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
-      - name: Setup Node.js 10.x
+      - name: Setup Node.js 10
         uses: actions/setup-node@v1
         with:
           node-version: 10
